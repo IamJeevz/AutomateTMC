@@ -2,6 +2,9 @@ package page;
 
 
 
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
 import java.awt.Robot;
 import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
@@ -71,24 +74,17 @@ public class ATPpage {
 	{
 		System.out.println("Page Title is:"+driver.getTitle());
 		Boolean a=driver.findElement(logo).isDisplayed();
-		if(a)
+		assertTrue(a);
 		{
 			System.out.println("The company Logo is Present");
 		}
-		else
-		{
-			System.out.println("The company logo is Absent");
-		}
 		String text=driver.findElement(welcome).getText();
 		String exptext="Welcome to ThomasMount Consulting Pvt Ltd";
-		if(text.equals(exptext))
+		assertEquals(text, exptext);
 		{
 			System.out.println("Welcome Text Matches");
 		}
-		else
-		{
-			System.out.println("Welcome Text Mismatch");
-		}
+		
 		driver.findElement(readmore).click();
 	}
 	
