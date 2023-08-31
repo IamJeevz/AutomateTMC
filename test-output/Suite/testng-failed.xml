@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.ATPaboutustest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testBase"/>
+          <include name="AboutUs"/>
+        </methods>
+      </class> <!-- test.ATPaboutustest -->
+      <class name="test.ATPcontacttest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="contact"/>
+          <include name="testBase"/>
+        </methods>
+      </class> <!-- test.ATPcontacttest -->
+      <class name="test.ATPcareertest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testBase"/>
+          <include name="career"/>
+        </methods>
+      </class> <!-- test.ATPcareertest -->
+      <class name="test.ATPofferingtest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testBase"/>
+          <include name="offering"/>
+        </methods>
+      </class> <!-- test.ATPofferingtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
