@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-05T13:28:51 IST" name="Default suite" finished-at="2023-08-05T13:29:00 IST" duration-ms="8374">
+  <suite started-at="2023-08-31T15:17:06 IST" name="Suite" finished-at="2023-08-31T15:18:59 IST" duration-ms="113408">
     <groups>
     </groups>
-    <test started-at="2023-08-05T13:28:51 IST" name="Default test" finished-at="2023-08-05T13:29:00 IST" duration-ms="8374">
-      <class name="test.ATPtest">
-        <test-method is-config="true" signature="testBase()[pri:0, instance:test.ATPtest@69e153c5]" started-at="2023-08-05T13:28:52 IST" name="testBase" finished-at="2023-08-05T13:28:57 IST" duration-ms="5418" status="PASS">
+    <test started-at="2023-08-31T15:17:06 IST" name="Test" finished-at="2023-08-31T15:18:59 IST" duration-ms="113408">
+      <class name="test.ATPaboutustest">
+        <test-method signature="AboutUs()[pri:0, instance:test.ATPaboutustest@543295b0]" started-at="2023-08-31T15:17:14 IST" name="AboutUs" finished-at="2023-08-31T15:17:15 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUs -->
+      </class> <!-- test.ATPaboutustest -->
+      <class name="test.ATPhometest">
+        <test-method is-config="true" signature="testBase()[pri:0, instance:test.ATPhometest@17f62e33]" started-at="2023-08-31T15:17:06 IST" name="testBase" finished-at="2023-08-31T15:17:13 IST" duration-ms="7086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBase -->
-        <test-method signature="setUp()[pri:0, instance:test.ATPtest@69e153c5]" started-at="2023-08-05T13:28:57 IST" name="setUp" finished-at="2023-08-05T13:28:59 IST" duration-ms="2413" status="PASS">
+        <test-method signature="Home()[pri:0, instance:test.ATPhometest@17f62e33]" started-at="2023-08-31T15:17:13 IST" name="Home" finished-at="2023-08-31T15:17:14 IST" duration-ms="1488" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ATPtest@69e153c5]" started-at="2023-08-05T13:28:59 IST" name="tearDown" finished-at="2023-08-05T13:29:00 IST" duration-ms="422" status="PASS">
+        </test-method> <!-- Home -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.ATPhometest@17f62e33]" started-at="2023-08-31T15:18:59 IST" name="tearDown" finished-at="2023-08-31T15:18:59 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.ATPtest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- test.ATPhometest -->
+      <class name="test.ATPcontacttest">
+        <test-method signature="contact()[pri:0, instance:test.ATPcontacttest@3e27ba32]" started-at="2023-08-31T15:18:41 IST" name="contact" finished-at="2023-08-31T15:18:59 IST" duration-ms="17533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+      </class> <!-- test.ATPcontacttest -->
+      <class name="test.ATPcareertest">
+        <test-method signature="career()[pri:0, instance:test.ATPcareertest@117159c0]" started-at="2023-08-31T15:17:16 IST" name="career" finished-at="2023-08-31T15:18:41 IST" duration-ms="84986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- career -->
+      </class> <!-- test.ATPcareertest -->
+      <class name="test.ATPofferingtest">
+        <test-method signature="offering()[pri:0, instance:test.ATPofferingtest@54422e18]" started-at="2023-08-31T15:17:15 IST" name="offering" finished-at="2023-08-31T15:17:16 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- offering -->
+      </class> <!-- test.ATPofferingtest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
